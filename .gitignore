@@ -1,0 +1,9 @@
+# Kaggle data: do not commit (large). Download it from Kaggle instead.
+*.csv
+
+# Python / OS / editor
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+.env
