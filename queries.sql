@@ -1,3 +1,4 @@
+-- step 3, create database and tables
 USE olist;
 
 -- Sanity check: every revenue query below should add up to this total

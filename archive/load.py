@@ -1,3 +1,13 @@
+# step 4, write etl script (extract, transform, load)
+# e: transform csv with pandas
+# t: clean and reshape them to match the schema
+# l: insert them into mysql
+# step 5, load the dimension tables first, then the fact table (because it points at the dimensions)
+# step 6, validate the row counts
+# step 7, write queries
+# step 8, record the performance using EXPLAIN ANALYZE 
+
+
 """Load the Olist CSVs into the MySQL star schema (run schema.sql first).
 
 Usage:

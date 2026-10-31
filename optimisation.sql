@@ -1,3 +1,5 @@
+-- Step 9, add covering indexes to speed up the queries
+-- step 10, compare results with and without indexes using EXPLAIN ANALYZE
 USE olist;
 
 -- BASELINE: only the automatic foreign-key indexes exist.
